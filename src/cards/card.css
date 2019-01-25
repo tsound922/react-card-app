@@ -1,0 +1,36 @@
+.cards-dashboard{
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+  }
+  
+  .cards-dashboard .card-wrapper{
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    float: left;
+  }
+  
+  .cards-dashboard .card-wrapper .card-content {
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+  }
+  
+  .cards-dashboard .card-wrapper .card-active{
+    background-color: green;
+  }
+  .cards-dashboard .card-wrapper .card-inactive{
+    background-color: red;
+  }
+  .cards-btn{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  img.imgSize {
+    width: 250px;
+    height: 350px;
+}
